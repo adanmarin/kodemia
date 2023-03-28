@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    background: #000;
+    height: 100%;
+    width: 100%;
+}
+.circle{
+    background-color: black;
+    border: 10px solid;
+    border-top-color: transparent ;
+    border-right-color: transparent;
+    border-bottom-color: green;
+    border-left-color:red ;
+    border-left-width: 5px;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    left: 50%;
+    top: 50%;
+    position: fixed;
+    transform: translate(-50%,-50%) rotate(0deg);
+
+    animation-name: circle;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: 2;
+    animation-delay: 0s;
+    animation-direction: reverse;
+    animation-fill-mode: forwards;
+}
+@keyframes circle{
+    0%{
+        transform: translate(-50%,-50%) rotate(0deg);
+    }
+    
+    100%{
+        transform: translate(-50%,-50%) rotate(360deg);
+    }
+}
