@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    background: #000;
+    height: 100%;
+    width: 100%;
+    color: white;
+}
+.reloj{
+    position: relative;
+    width: 300px;
+    height: 300px;
+    background-color: black;
+    border: 40px solid white;
+    border-radius: 50%;
+    margin: 100px auto;
+}
+.seg{
+    position: absolute;
+    height: 110px;
+    width: 5px;
+    border-radius: 10px;
+    background-color: blue;
+    left: 50%;
+    top: 1%;
+    transform-origin: bottom;
+    animation-name: seg_anis;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    z-index: 5;
+}
+.numbers{
+    position: absolute;
+    color:red;
+    /*font-family: 'Edu NSW ACT Foundation', cursive;*/
+    font-size: 40px;
+    font-weight:700 ;
+}
+.n4{
+    left: 50%;
+    bottom: 50%;
+    transform: translate(-50%,50%);
+    
+}
+.n12{
+    top:-10%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.n3{
+    top:50%;
+    left: 110%;
+    transform: translate(-50%,-50%);
+}
+.n6{
+    bottom:-10%;
+    right: 50%;
+    transform: translate(50%,50%);
+}
+.n9{
+    top:50%;
+    right: 100%;
+    transform: translate(-50%,-50%);
+}
+.n1{
+    top:-10%;
+    left:80%;
+}
+.n2{
+    top:10%;
+    left:95%;
+}
+@keyframes seg_anim{
+    from{
+        transform:translate(0%,0%) rotateZ(0deg);
+    }
+    to{
+        transform:translate(0%,0%) rotateZ(360deg);
+    }
+}
