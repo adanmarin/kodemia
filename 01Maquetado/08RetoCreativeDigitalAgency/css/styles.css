@@ -7,8 +7,227 @@ html,body{
     background: #fff;
     
     color: #000;
-    font-size: 16px;
+    font-size: 30px;
+    width: 100%;
+    background-color: gray;
+    font-family: 'Roboto Slab', serif;
+
+    
 }
 spam{
     display: inline-block;
+   
 }
+
+main{
+    width: 31.25rem;
+    background-color: white;
+    margin: 0 auto;
+}
+nav{
+    background-color: #fff;
+    width: 31.25rem;
+    margin: 0 auto;
+    display: flex;
+    justify-content:space-around;
+}
+nav span{
+    justify-self: start;
+    padding-right: 9.375rem;
+    font-weight: 400;
+}
+.sec_h1{
+    width: 31.25rem;
+    height: 15.625rem;
+    background-image: url(../img/edificios.webp) ;
+    background-size: cover;
+    backdrop-filter: brightness(.5);
+    
+}
+h1{
+    filter: none ;
+    text-align: center;
+    color: #fff; 
+    padding-top: 3.125rem;
+    font-weight: 800;
+    font-size: 1.5rem;
+}
+h2{
+    font-size: 1rem;
+}
+h3{
+    font-size: .6rem;
+}
+.sec_h1 p{
+    color: #fff;
+    font-size: .5rem;
+    margin: 1rem 7.5rem 0;
+    text-align: center;
+    filter: brightness(.9)
+}
+.sec_three{
+    display: flex;
+    width: 100%;
+    
+}
+.sec_three div:first-child
+{
+    background-color: #333333;
+}
+.sec_three div:nth-child(2){
+    background-color: #D61727;
+}
+.sec_three div:nth-child(3){
+    background-color: #38324E;
+}
+.sec_three > div{
+    color: #fff;
+    font-size: .3rem;
+    height: 7rem;
+    position: relative;
+    padding-top: 1.7rem;
+    padding-left: .7rem;
+}
+.sec_three > div > .barra{
+    position: absolute;
+    border: 1px solid #fff;
+    width: 1rem;
+    background-color: #333333;
+    margin-top: .5rem;
+}
+.sec_three > div >p{
+    padding-top: 1rem;
+}
+.sec_we{
+    background-color: #F6FAFD;
+    width: 100%;
+    height: 10rem;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2rem 3rem;
+    
+}
+.sec_we h2{
+    flex-basis: 100%;
+    font-size: .8rem;
+}
+.sec_we div{
+    
+    padding-top: -10rem;
+    flex-basis: 20%;
+    position: relative;
+}
+.sec_we p {
+    font-size: .5rem;
+    flex-basis: 80%;
+    padding-top: 0.9375rem;
+}
+.sec_we div div{
+    position: absolute;
+    background-color: #7C535F;
+    width: 0.15rem;
+    height: 3.5rem;
+    transform: rotate(90deg);
+    top: -0.4375rem;
+    left: 1.875rem;
+}
+.sec_winning{
+    background-color: #38324E;
+    width: 100%;
+    height: 16rem;
+}
+.sec_winning .container{
+    padding-top: 1rem;
+    width:20.625rem ;
+    margin: 0 auto;
+    display: flex;
+}
+.sec_winning .container .cont_1{
+    width: 13.75rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+}
+.sec_winning .container .cont_2{
+    width: 6.875rem;
+    background-color: blue;
+    display: flex;
+    height:14rem;
+}
+.sec_winning .container .cont_1 div:nth-child(1){
+    width: 6.3rem;
+    height: 8rem;
+    background-image: url(../img/sec_three_secre.webp);
+    background-size: cover;
+    filter: brightness(.5);
+}
+.sec_winning .container .cont_1 div:nth-child(2){
+    width: 6.3rem;
+    height: 8rem;
+    background-image: url(../img/sec_three_cajas.jpg);
+    background-size: cover;
+    filter: brightness(.5);
+}
+.sec_winning .container .cont_1 div:nth-child(3){
+    width: 6.3rem;
+    height: 5rem;
+    color: #fff;
+    background-color:#D61727;
+    
+}
+.sec_winning .container .cont_1 div:nth-child(4){
+    width: 6.3rem;
+    height: 5rem;
+    background-image: url(../img/sec_three_escritorio.jpg);
+    background-size: cover;
+    filter: brightness(.5);
+}
+.sec_winning .container .cont_1 div:nth-child(3)  h4{
+    font-size: .4rem;
+    padding: 1rem 1rem;
+    padding-bottom: .5rem;
+   
+    color: #fff;
+    
+}
+.sec_winning .container .cont_1 div:nth-child(3)  p{
+    font-size: .3rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    
+    
+}
+.sec_winning .container .cont_2{
+    background-color: #F6FAFD;
+    color:#000;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+}
+.sec_winning .container .cont_2 h4{
+    background-color: #F6FAFD;
+    color:#000;
+    width: 6.875rem;
+    height: 6.25rem;
+    font-size: .5rem;
+    text-align: left;
+    padding-left: .5rem;
+    padding-top: 4.5rem;
+}
+.sec_winning .container .cont_2 p{
+    background-color: #F6FAFD;
+    color:#000;
+    text-align: center;
+    font-size: .3rem;
+    width: 6.875rem;
+    text-align: left;
+    padding-left: .5rem;
+    padding-right: .5rem;
+    padding-bottom: 4rem;
+}
+
+
+
