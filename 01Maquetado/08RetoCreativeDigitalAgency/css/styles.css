@@ -138,22 +138,21 @@ h3{
 }
 .sec_winning .container{
     padding-top: 1rem;
-    width:20.625rem ;
+    width:20rem ;
     margin: 0 auto;
     display: flex;
 }
 .sec_winning .container .cont_1{
-    width: 13.75rem;
+    width: 13.2rem;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    row-gap: .3rem;
+    column-gap: .3rem;
     
 }
 .sec_winning .container .cont_2{
     width: 6.875rem;
-    background-color: blue;
     display: flex;
-    height:14rem;
 }
 .sec_winning .container .cont_1 div:nth-child(1){
     width: 6.3rem;
@@ -174,6 +173,7 @@ h3{
     height: 5rem;
     color: #fff;
     background-color:#D61727;
+
     
 }
 .sec_winning .container .cont_1 div:nth-child(4){
@@ -185,16 +185,18 @@ h3{
 }
 .sec_winning .container .cont_1 div:nth-child(3)  h4{
     font-size: .4rem;
-    padding: 1rem 1rem;
-    padding-bottom: .5rem;
-   
+    text-align: left;
     color: #fff;
+    padding-top: .4rem;
+    padding-left: .6rem;
     
 }
 .sec_winning .container .cont_1 div:nth-child(3)  p{
+    
     font-size: .3rem;
-    padding-left: 1rem;
-    padding-right: 1rem;
+    padding-left: .6rem;
+    padding-right: .6rem;
+    padding-top: .3rem;
     
     
 }
@@ -228,6 +230,181 @@ h3{
     padding-right: .5rem;
     padding-bottom: 4rem;
 }
+.set_choose p{
+    font-size: .3rem;
+}
+.set_choose{
+    width: 100%;
+    height: 15rem;
+    background-color: #D61727;
+    padding-top: 1rem;
+    
+}
 
+.set_choose div{
+    width: 20rem;
+    background-color:#F6FAFD;
+    height: 13rem;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+}
+.set_choose div .set_choose_why{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.set_choose div .set_choose_why_2nd{
+ 
+    width: 50%;
+}
+.set_choose div .set_choose_why_2nd div{
+    background-image: url(../img/set_choose_barbon.jpg);
+    background-size:cover;
+    filter: brightness(.5);
+    width: 10rem;
+}
+.set_choose div .set_choose_why h4{
+    font-size: .4rem;
+    color:#000;
+}
+.set_choose div .set_choose_why h3{
+    font-size: .8rem;
+    color:#000;
+    padding-left: .5rem;
+    padding-top: .5rem;
+}
 
+.set_choose div .set_choose_why div{
+    color: black;
+    width: 100%;
+    position: relative;
+}
+.set_choose div .set_choose_why div i{
+    position: absolute;
+    color: #D61727;
+    left: 1rem;
+}
+.set_choose div .set_choose_why div h4{
+    position: absolute;
+    left: 2.3rem;
+}
+.set_choose div .set_choose_why div p{
+    position: absolute;
+    padding-left: 1.15rem;
+    padding-right: 1.15rem;
+    left: 1.15rem;
+    bottom: 1.4rem;
+}
+.set_9img{
+    width: 100%;
+    height: 38rem;
+    background-color: #F6FAFD;
+    padding-top: 1rem;
+}
 
+.set_9img > div{
+    width: 20rem;
+    height: 36rem;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.set_9img  div article:nth-child(1)
+{
+    width: 100%;
+    height: 25rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.set_9img  div article:nth-child(2)
+{
+    width: 100%;
+    height: 11rem;
+    background-color: yellow;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
+.set_9img  div article:nth-child(1) > div
+{
+    width: 5.666666666666667rem;
+    height: 5.666666666666667rem;
+    background-color: #7C535F;
+}
+.set_9img  div article:nth-child(1)  div:nth-child(1)
+{
+    background-image: url(../img/set_9img_1.jpg);
+    background-size: cover;
+    filter: brightness(.5);
+}
+.set_9img  div article:nth-child(1)  div:nth-child(2)
+{
+    background-image: url(../img/set_9img_2.webp);
+    background-size: cover;
+    filter: brightness(.3);
+}
+.set_9img  div article:nth-child(1)  div:nth-child(3)
+{
+    background-image: url(../img/set_9img_3.jpg);
+    background-size: cover;
+    filter: brightness(.5);
+}
+.set_9img  div article:nth-child(1)  div:nth-child(4)
+{
+    background-image: url(../img/set_9img_4.jpg);
+    background-size: cover;
+    filter: brightness(.5);
+}
+.set_9img  div article:nth-child(1)  div:nth-child(5)
+{
+    background-image: url(../img/set_9img_5.jpg);
+    background-size: cover;
+    filter: brightness(.5);
+}
+.set_9img  div article:nth-child(1)  div:nth-child(6)
+{
+    background-image: url(../img/set_9img_6.jpg);
+    background-size: cover;
+    filter: brightness(.5);
+}
+.set_9img  div article:nth-child(1)  div:nth-child(7)
+{
+    background-image: url(../img/set_9img_7.jpg);
+    background-size: cover;
+    filter: brightness(.5);
+}
+.set_9img  div article:nth-child(1)  div:nth-child(8)
+{
+    background-image: url(../img/set_9img_8.jpeg);
+    background-size: cover;
+    filter: brightness(.5);
+}
+.set_9img  div article:nth-child(1)  div:nth-child(9)
+{
+    background-image: url(../img/set_9img_9.jpg);
+    background-size: cover;
+    filter: brightness(.5);
+}
+.set_9img  div article:nth-child(1)  div:nth-child(10)
+{
+   color: #000;
+}
+.set_9img  div article:nth-child(1)  div:nth-child(11)
+{
+    background-image: url(../img/set_9img_11.jpg);
+    background-size: cover;
+    
+    filter: brightness(.5);
+}
+.set_9img  div article:nth-child(1)  div:nth-child(12)
+{
+    background-image: url(../img/set_9img_12.jpg);
+    background-size: cover;
+    filter: brightness(.2);
+    
+}
