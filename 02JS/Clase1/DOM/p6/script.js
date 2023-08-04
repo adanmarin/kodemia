@@ -1,0 +1,5 @@
+ 
+
+ const operacionBancaria = (tipoOperacion,cantidad) =>{
+
+ }

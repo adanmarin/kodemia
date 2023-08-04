@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div id="modal" class="modal">
+        <div class="modal__contenido">
+            <span>¿Estás seguro de querer eliminar permanentemente a esta persona?</span>
+            <div class="modal__contenido_acciones">
+                <a id="boton_aceptar" class="boton_eliminar cancelar" href="#"><span>Si</span></a>
+                <a id="boton_cancelar" class="boton_eliminar" href="#"><span>Cancelar</span></a>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <form action="" >
+            <fieldset class="formulario">
+                <legend>Datos de clientes:</legend>
+                <label for="name">Nombre:</label>
+                <input type="text" name="name" id="name">
+                <label for="lastName">Apellido:</label>
+                <input type="text" name="lastName" id="lastName">
+                <label for="age">Edad:</label>
+                <input type="text" name="age" id="age">
+                <label for="url_img">Url foto de perfil:</label>
+                <input type="text" name="url_img" id="url_img">
+                <a href="" class="save" id="save"><span>Guardar</span></a>
+                <p  id="errorMsg" class="errorMsgHide">error</p>
+            </fieldset>
+        </form>
+        <div class="cards" id="cards">
+           <!-- <div class="cards__item">
+                <div class="card__item_photo">
+                    <img src="https://picsum.photos/100/100" alt="">
+                </div>
+                <div class="cards__item_data">
+                    <div class="cards__item_data_actions">
+                        <a href="#" class="img_icon_link_edit" onclick="editar(1);"><img class="img_icon" src="./img/edit.svg" alt=""></a>
+                        <a href="#" class="img_icon_link_delete"><img class="img_icon" src="./img/delete.svg" alt=""></a>
+                    </div>
+                    <div class="cards__item_data_name">
+                        <span>Adan Marin</span>
+                    </div>
+                    <div class="cards__item_data_lastname">
+                        <span>Ibarra Flore</span>
+                    </div>
+                    <div class="cards__item_data_age">
+                        <span>30</span>
+                    </div>
+                </div>
+            </div>
+            
+            </div>
+             -->
+        </div>
+    </div>
+</body>
+<script src="./script.js"></script>
+</html>

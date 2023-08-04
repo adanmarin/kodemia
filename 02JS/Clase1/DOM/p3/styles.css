@@ -1,0 +1,54 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 350px;
+    height: 150px;
+    background-color: rgb(35, 99, 160);
+    border-radius: 5px;
+    padding: 5px;
+    display: flex;
+    gap: 5px;
+}
+.container_img{
+    border: 2px solid white;
+    border-radius: 5px;
+}
+.name{
+    color: white;
+}
+.age{
+    margin-top: 5px;
+    color: white;
+}
+.subjets{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+    
+}
+.subjets_name{
+    
+    padding: 2px;
+    margin-top: 15px;
+    background-color: white;
+    color:rgb(35, 99, 160);
+    border-radius: 5px;
+}
+.avg{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    font-weight: bold;
+}
+.avg-msg-pass{
+    color: white;
+}
+.avg-msg-fail{
+    color: rgb(170, 73, 73);
+}

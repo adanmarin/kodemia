@@ -1,0 +1,37 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 20px;
+}
+.card_container{
+    width: 400px;
+}
+.card{
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 400px;
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    background-color: rgb(83, 181, 226);
+
+}
+.avatar{
+    margin-left: 10px;
+    width: 130px;
+    height: 130px;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+.data{
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.data_name{
+    font-weight: bold;
+}
